@@ -26,6 +26,7 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
     </td>
   </tr>
 </table>
+
 - **Format:** Intensity-based and spatial data for probabilistic atlas and tissue model creation.
 
 ---
