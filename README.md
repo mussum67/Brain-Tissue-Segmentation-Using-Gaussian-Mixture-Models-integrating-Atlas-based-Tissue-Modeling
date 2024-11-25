@@ -32,7 +32,7 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
     <img src="Registration/Registration.jgp.jpg" alt="Registered Image" width="300"/>
-    <p><b>Figure 1:</b> Mean Image and Atlas</p>
+    <p><b>Figure 1:</b> Registered Image</p>
   </div>
   <div style="text-align: center;">
     <img src="Registration/Registered_Masks.jpg" alt="Registered Masks" width="300"/>
@@ -40,7 +40,7 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
   </div>
   <div style="text-align: center;">
     <img src="Registration/ATLAS.jpg" alt="Probabilistic Atlas" width="300"/>
-    <p><b>Figure 3:</b> Registration Process</p>
+    <p><b>Figure 3:</b> Mean Image and Probabilistic Atlas</p>
   </div>
 </div>
     
