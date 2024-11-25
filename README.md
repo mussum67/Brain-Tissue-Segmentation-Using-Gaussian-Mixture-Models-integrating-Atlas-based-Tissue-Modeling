@@ -29,7 +29,20 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 - **Label Propagation:**
   - Applied transformations to labels for creating the probabilistic atlas.
  
-![Registration](Result/qualitative_comparison_em_kmeans_tm_lp_a.png)
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+    <img src="ATLAS.jpg" alt="Atlas Image" width="300"/>
+    <p><b>Figure 1:</b> Mean Image and Atlas</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="Registered_Masks.jpg" alt="Registered Masks" width="300"/>
+    <p><b>Figure 2:</b> Registered Masks</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="Registration.jgp.jpg" alt="Registration Process" width="300"/>
+    <p><b>Figure 3:</b> Registration Process</p>
+  </div>
+</div>
     
 
 ### **2. Tissue Models**
