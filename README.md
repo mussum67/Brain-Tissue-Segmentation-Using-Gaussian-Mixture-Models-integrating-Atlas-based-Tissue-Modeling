@@ -32,7 +32,7 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Registration/Registration.jgp" alt="Registered Image" width="300"/>
+      <img src="Registration/Registration.jpg" alt="Registered Image" width="300"/>
       <p><b>Figure 1:</b> Registered Image</p>
     </td>
     <td style="text-align: center;">
