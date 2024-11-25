@@ -29,21 +29,22 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 - **Label Propagation:**
   - Applied transformations to labels for creating the probabilistic atlas.
  
-<div style="display: flex; justify-content: space-around;">
-  <div style="text-align: center;">
-    <img src="Registration/Registration.jgp.jpg" alt="Registered Image" width="300"/>
-    <p><b>Figure 1:</b> Registered Image</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="Registration/Registered_Masks.jpg" alt="Registered Masks" width="300"/>
-    <p><b>Figure 2:</b> Registered Masks</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="Registration/ATLAS.jpg" alt="Probabilistic Atlas" width="300"/>
-    <p><b>Figure 3:</b> Mean Image and Probabilistic Atlas</p>
-  </div>
-</div>
-    
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="Registration/Registration.jgp" alt="Registered Image" width="300"/>
+      <p><b>Figure 1:</b> Registered Image</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="Registration/Registered_Masks.jpg" alt="Registered Masks" width="300"/>
+      <p><b>Figure 2:</b> Registered Masks</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="Registration/ATLAS.jpg" alt="Probabilistic Atlas" width="300"/>
+      <p><b>Figure 3:</b> Mean Image and Probabilistic Atlas</p>
+    </td>
+  </tr>
+</table>
 
 ### **2. Tissue Models**
 - **Intensity Normalization:** Min-Max normalization to [0, 255].
