@@ -14,7 +14,18 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 
 ## **Dataset**
 - **Size:** 20 T1-weighted MRI scans and corresponding ground truth segmentation masks for WM, GM, and CSF.
-
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="Registration/Registration.jpg" alt="Registered Image" width="300"/>
+      <p><b>Figure 1:</b> T1 Weighted MRI Scan</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="Registration/Registered_Masks.jpg" alt="Registered Masks" width="300"/>
+      <p><b>Figure 2:</b> Corresponding Ground Truth</p>
+    </td>
+  </tr>
+</table>
 - **Format:** Intensity-based and spatial data for probabilistic atlas and tissue model creation.
 
 ---
