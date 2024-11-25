@@ -14,6 +14,7 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 
 ## **Dataset**
 - **Size:** 20 T1-weighted MRI scans and corresponding ground truth segmentation masks for WM, GM, and CSF.
+![Dataset Sample](Result/qualitative_comparison_em_kmeans_tm_lp_a.png)
 - **Format:** Intensity-based and spatial data for probabilistic atlas and tissue model creation.
 
 ---
@@ -27,6 +28,9 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
   - Results: Mean image and probabilistic atlas created from registered labels.
 - **Label Propagation:**
   - Applied transformations to labels for creating the probabilistic atlas.
+ 
+![Registration](Result/qualitative_comparison_em_kmeans_tm_lp_a.png)
+    
 
 ### **2. Tissue Models**
 - **Intensity Normalization:** Min-Max normalization to [0, 255].
@@ -61,12 +65,14 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 | TM+LP                   | 0.8392 | 0.8785 | 0.9269 | 0.8061  |
 | EM+KMeans+LP+TM (Freq=1)| 0.8154 | 0.9219 | 0.9502 | 0.8958  |
 
+![Quantitative Results](Result/qualitative_comparison_em_kmeans_tm_lp_a.png)
+
 - **Best Approach:** EM+KMeans+LP+TM (Freq=1) with highest Dice scores for all tissues.
 - **Challenges:** Lower Dice scores for CSF due to intensity overlaps with GM and minority class representation.
 
 ### **Qualitative Results**
 - Visual comparisons indicate improved segmentation using combined approaches.
-
+![Visual Comparison](Result/qualitative_comparison_em_kmeans_tm_lp_a.png)
 ---
 
 ## **Discussion**
