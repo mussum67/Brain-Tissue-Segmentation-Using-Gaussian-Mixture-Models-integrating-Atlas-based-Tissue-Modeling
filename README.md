@@ -17,11 +17,11 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="Registration/Registration.jpg" alt="Registered Image" width="300"/>
+      <img src="Dataset_Sample/T1_weighted_MRI_Scan.jpg" alt="T1 Weighted MRI Scan" width="300"/>
       <p><b>Figure 1:</b> T1 Weighted MRI Scan</p>
     </td>
     <td style="text-align: center;">
-      <img src="Registration/Registered_Masks.jpg" alt="Registered Masks" width="300"/>
+      <img src="Dataset_Sample/Corresponding_Ground_Truth.jpg" alt="Corresponding Ground Truth" width="300"/>
       <p><b>Figure 2:</b> Corresponding Ground Truth</p>
     </td>
   </tr>
