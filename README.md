@@ -65,7 +65,7 @@ This project explores the segmentation of brain tissues into **Grey Matter (GM)*
 | TM+LP                   | 0.8392 | 0.8785 | 0.9269 | 0.8061  |
 | EM+KMeans+LP+TM (Freq=1)| 0.8154 | 0.9219 | 0.9502 | 0.8958  |
 
-![Quantitative Results](Result/qualitative_comparison_em_kmeans_tm_lp_a.png)
+![Quantitative Results](Result/Mean_dice_TABLE.png)
 
 - **Best Approach:** EM+KMeans+LP+TM (Freq=1) with highest Dice scores for all tissues.
 - **Challenges:** Lower Dice scores for CSF due to intensity overlaps with GM and minority class representation.
